@@ -1,0 +1,12 @@
+Source: ros-groovy-jsk-openni-kinect
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/jsk_openni_kinect
+Standards-Version: 3.9.2
+
+Package: ros-groovy-jsk-openni-kinect
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: openni kinect application developed by jsk
